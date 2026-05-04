@@ -16,6 +16,13 @@ export const metadata: Metadata = {
   title: "CIT Learning | Karachi, Pakistan",
   description: "Certificate in Information Technology - free learning platform for students in karachi, pakistan",
   icons: {icon: "/favicon.ico"},
+  keywords: ["CIT", "Karachi", "IT Course", "Free Learning", "MS Office", "Web Development"],
+  authors: [{ name: "Zayyan Sheikh"}],
+  openGraph: {
+    title: "CIT Learning | Karachi",
+    description: "Master IT Skills from basic to advanced",
+    images: [{url: "/og-image.jpg"}],
+  },
 };
 
 export default function RootLayout({
